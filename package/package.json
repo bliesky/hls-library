@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "big-integer": "^1.6.51",
+    "dotenv-webpack": "^1.8.0",
+    "ecies-parity": "^0.1.1",
+    "hls.js": "^1.0.12",
+    "python": "0.0.4",
+    "secretjs": "^0.17.5"
+  }
 }
