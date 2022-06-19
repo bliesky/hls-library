@@ -1,3 +1,3 @@
-const hlsMain = require("hls-library");
+import hlsMain from "../package/index.js";
 
 hlsMain();
